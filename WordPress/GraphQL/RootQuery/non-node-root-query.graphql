@@ -1,0 +1,436 @@
+query NON_NODE_QUERY {
+  allSettings {
+    discussionSettingsDefaultCommentStatus
+    discussionSettingsDefaultPingStatus
+    generalSettingsDateFormat
+    generalSettingsDescription
+    generalSettingsEmail
+    generalSettingsLanguage
+    generalSettingsStartOfWeek
+    generalSettingsTimeFormat
+    generalSettingsTimezone
+    generalSettingsTitle
+    generalSettingsUrl
+    readingSettingsPostsPerPage
+    writingSettingsDefaultCategory
+    writingSettingsDefaultPostFormat
+    writingSettingsUseSmilies
+  }
+
+  discussionSettings {
+    defaultCommentStatus
+    defaultPingStatus
+  }
+
+  generalSettings {
+    dateFormat
+    description
+    email
+    language
+    startOfWeek
+    timeFormat
+    timezone
+    title
+    url
+  }
+
+  readingSettings {
+    postsPerPage
+  }
+
+  schemaMd5
+
+  seo {
+    breadcrumbs {
+      archivePrefix
+      boldLast
+      enabled
+      homeText
+      notFoundText
+      prefix
+      searchPrefix
+      separator
+      showBlogPage
+    }
+
+    contentTypes {
+      actionMonitorAction {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+
+      clientlogo {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+
+      employeespeak {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+
+      heroslider {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+
+      job {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+
+      leadership {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+
+      mediaItem {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+
+      page {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+
+      photo {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+
+      post {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+
+      service {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+
+      testimonial {
+        archive {
+          archiveLink
+          breadcrumbTitle
+          fullHead
+          hasArchive
+          metaDesc
+          metaRobotsNoindex
+          title
+        }
+
+        metaDesc
+        metaRobotsNoindex
+
+        schema {
+          raw
+        }
+
+        schemaType
+        title
+      }
+    }
+
+    openGraph {
+      defaultImage {
+        __typename
+        id
+      }
+
+      frontPage {
+        description
+
+        image {
+          __typename
+          id
+        }
+
+        title
+      }
+    }
+
+    redirects {
+      format
+      origin
+      target
+      type
+    }
+
+    schema {
+      companyLogo {
+        __typename
+        id
+      }
+
+      companyName
+      companyOrPerson
+      inLanguage
+
+      logo {
+        __typename
+        id
+      }
+
+      personLogo {
+        __typename
+        id
+      }
+
+      personName
+      siteName
+      siteUrl
+      wordpressSiteName
+    }
+
+    social {
+      facebook {
+        defaultImage {
+          __typename
+          id
+        }
+
+        url
+      }
+
+      instagram {
+        url
+      }
+
+      linkedIn {
+        url
+      }
+
+      mySpace {
+        url
+      }
+
+      pinterest {
+        metaTag
+        url
+      }
+
+      twitter {
+        cardType
+        username
+      }
+
+      wikipedia {
+        url
+      }
+
+      youTube {
+        url
+      }
+    }
+
+    webmaster {
+      baiduVerify
+      googleVerify
+      msVerify
+      yandexVerify
+    }
+  }
+
+  viewer {
+    id
+  }
+
+  wpGatsby {
+    arePrettyPermalinksEnabled
+    isPreviewFrontendOnline
+  }
+
+  writingSettings {
+    defaultCategory
+    defaultPostFormat
+    useSmilies
+  }
+}

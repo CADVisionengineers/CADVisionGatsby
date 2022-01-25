@@ -1,0 +1,13 @@
+
+  // prefer default export if available
+  const preferDefault = m => (m && m.default) || m
+  
+
+exports.ssrComponents = {
+  "component---cache-dev-404-page-js": preferDefault(require("C:\\Users\\winhu\\source\\repos\\winhubsolutions\\CADVisionGatsby\\.cache\\dev-404-page.js")),
+  "component---src-pages-404-js": preferDefault(require("C:\\Users\\winhu\\source\\repos\\winhubsolutions\\CADVisionGatsby\\src\\pages\\404.js")),
+  "component---src-pages-contact-js": preferDefault(require("C:\\Users\\winhu\\source\\repos\\winhubsolutions\\CADVisionGatsby\\src\\pages\\contact.js")),
+  "component---src-templates-types-page-js": preferDefault(require("C:\\Users\\winhu\\source\\repos\\winhubsolutions\\CADVisionGatsby\\src\\templates\\types\\page.js")),
+  "component---src-templates-types-service-js": preferDefault(require("C:\\Users\\winhu\\source\\repos\\winhubsolutions\\CADVisionGatsby\\src\\templates\\types\\service.js"))
+  }
+

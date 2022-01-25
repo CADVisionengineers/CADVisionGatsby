@@ -1,0 +1,95 @@
+query NODE_LIST_QUERY($first: Int!, $after: String) {
+  testimonials(first: $first, after: $after) {
+    nodes {
+      contentType {
+        node {
+          id
+        }
+      }
+      databaseId
+      date
+      dateGmt
+      desiredSlug
+      enclosure
+      featuredImage {
+        node {
+          __typename
+          id
+        }
+      }
+      featuredImageDatabaseId
+      featuredImageId
+      guid
+      id
+      isRevision
+      lastEditedBy {
+        node {
+          id
+        }
+      }
+      link
+      modified
+      modifiedGmt
+      seo {
+        breadcrumbs {
+          text
+          url
+        }
+        canonical
+        cornerstone
+        focuskw
+        fullHead
+        metaDesc
+        metaKeywords
+        metaRobotsNofollow
+        metaRobotsNoindex
+        opengraphAuthor
+        opengraphDescription
+        opengraphImage {
+          __typename
+          id
+        }
+        opengraphModifiedTime
+        opengraphPublishedTime
+        opengraphPublisher
+        opengraphSiteName
+        opengraphTitle
+        opengraphType
+        opengraphUrl
+        readingTime
+        schema {
+          articleType
+          pageType
+          raw
+        }
+        title
+        twitterDescription
+        twitterImage {
+          __typename
+          id
+        }
+        twitterTitle
+      }
+      slug
+      status
+      template {
+        templateName
+        __typename
+      }
+      Testimonial {
+        clientname
+        comments
+        company
+        designation
+        fieldGroupName
+      }
+      title
+      uri
+      __typename
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}
