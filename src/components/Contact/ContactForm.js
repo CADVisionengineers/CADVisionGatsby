@@ -16,8 +16,8 @@ const Contact = () => {
       method: 'post',
       url: `${WEBSITE_URL}/wp-json/jwt-auth/v1/token`,
       data: {
-        username: 'Admin', // provide a user credential with subscriber role
-        password: 'EDkS&sI$Rx!p&1o@bU$Q4IHY'
+        username: 'winhub', // provide a user credential with subscriber role
+        password: '9@jvV&XGeFQLDHBq9lkr6PzL'
       },
       headers: {
         'Content-Type': 'application/json'
