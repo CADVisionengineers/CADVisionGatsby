@@ -3,7 +3,7 @@ import { useFormik } from 'formik'
 import axios from 'axios'
 
 const Contact = () => {
-  const WEBSITE_URL = 'https://businesso.vigilant-burnell.147-182-171-252.plesk.page';
+  const WEBSITE_URL = 'https://cadvision.xyz';
   const FORM_ID = '3200'; //Form id that provides Contact Form 7
 
   const [token, setToken] = useState('') // store token
@@ -16,8 +16,8 @@ const Contact = () => {
       method: 'post',
       url: `${WEBSITE_URL}/wp-json/jwt-auth/v1/token`,
       data: {
-        username: 'winhub', // provide a user credential with subscriber role
-        password: '9@jvV&XGeFQLDHBq9lkr6PzL'
+        username: 'CADVision', // provide a user credential with subscriber role
+        password: 'eLEdy%lqTwfrq#qpEAWh3NFO'
       },
       headers: {
         'Content-Type': 'application/json'
