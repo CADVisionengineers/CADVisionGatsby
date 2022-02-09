@@ -151,7 +151,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: process.env.WPGRAPHQL_URL ||'https://businesso.vigilant-burnell.147-182-171-252.plesk.page/graphql',
+        url: process.env.WPGRAPHQL_URL ||'https://cadvision.xyz/graphql',
         verbose: true,
         develop: {
           hardCacheMediaFiles: true,
