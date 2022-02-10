@@ -3,7 +3,7 @@ import { useFormik } from 'formik'
 import axios from 'axios'
 
 const Contact = () => {
-  const WEBSITE_URL = 'https://businesso.vigilant-burnell.147-182-171-252.plesk.page';
+  const WEBSITE_URL = 'https://cadvision.xyz';
   const FORM_ID = '3200'; //Form id that provides Contact Form 7
 
   const [token, setToken] = useState('') // store token
