@@ -3,9 +3,9 @@ import * as  Yup from 'yup';
 import axios from 'axios';
 import { Formik } from 'formik';
 
-const URL = 'http://67.207.81.18';
-const USER = 'Admin';
-const PASSWORD = 'Vinay#215';
+const URL = 'https://cadvision.xyz';
+const USER = 'CADVision';
+const PASSWORD = 'eLEdy%lqTwfrq#qpEAWh3NFO';
 const TOKEN = typeof window !== 'undefined' && window.btoa(`${USER}:${PASSWORD}`); // Convert Base64
 const CF7_ID = '3200';
 
