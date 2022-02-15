@@ -3,7 +3,7 @@ import { useFormik } from 'formik'
 import axios from 'axios'
 
 const Contact = () => {
-  const WEBSITE_URL = 'https://cadvision.xyz/graphql';
+  const WEBSITE_URL = 'https://cadvision.xyz';
   const FORM_ID = '3200'; //Form id that provides Contact Form 7
 
   const [token, setToken] = useState('') // store token
@@ -14,7 +14,7 @@ const Contact = () => {
   useEffect(() => {
     axios({
       method: 'post',
-      url: `${WEBSITE_URL}/wp-json/jwt-auth/v1/token`,
+      url: `https://cadvision.xyz/wp-json/jwt-auth/v1/token`,
       data: {
         username: 'cadvision', // provide a user credential with subscriber role
         password: '@dmin@2020@CadVision'
@@ -61,7 +61,7 @@ const Contact = () => {
       // here we sent
       axios({
         method: 'post',
-        url: `${WEBSITE_URL}/wp-json/contact-form-7/v1/contact-forms/${FORM_ID}/feedback`,
+        url: `https://cadvision.xyz/wp-json/contact-form-7/v1/contact-forms/${FORM_ID}/feedback`,
         data: bodyFormData,
         headers: {
           'Authorization': `Bearer ${token}`,
