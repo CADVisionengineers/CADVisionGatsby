@@ -3,7 +3,7 @@ import { useFormik } from 'formik'
 import axios from 'axios'
 
 const Contact = () => {
-  const WEBSITE_URL = 'https://cadvision.xyz';
+  const WEBSITE_URL = 'https://cadvision.xyz/graphql';
   const FORM_ID = '3200'; //Form id that provides Contact Form 7
 
   const [token, setToken] = useState('') // store token
