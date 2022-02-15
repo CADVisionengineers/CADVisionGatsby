@@ -17,7 +17,7 @@ const Contact = () => {
       url: `https://cadvision.xyz/wp-json/jwt-auth/v1/token`,
       data: {
         username: 'cadvision', // provide a user credential with subscriber role
-        password: '@dmin@2020@CadVision'
+        password: '56sWEod&8Fn2(oArn19sBdyM'
       },
       headers: {
         'Content-Type': 'application/json'
