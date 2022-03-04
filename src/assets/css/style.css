@@ -14258,6 +14258,15 @@ color: #fff;
 	margin: 0 auto;
 	box-sizing: border-box;
 }
+@media only screen and (min-width: 600px) {
+#crmWebToEntityForm.zcwf_lblLeft {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 1px;
+    width: 300px;
+}
+}
+
 #crmWebToEntityForm.zcwf_lblLeft * {
 	box-sizing: border-box;
 }
