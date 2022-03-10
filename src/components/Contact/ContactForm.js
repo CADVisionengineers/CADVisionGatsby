@@ -4,7 +4,7 @@ import axios from 'axios'
 
 const Contact = () => {
   const WEBSITE_URL = 'https://cadvision.xyz';
-  const FORM_ID = '3200'; //Form id that provides Contact Form 7
+  const FORM_ID = '5295'; //Form id that provides Contact Form 7
 
   const [token, setToken] = useState('') // store token
   const [isSuccessMessage, setIsSuccessMessage] = useState(false) // manage is success message state
